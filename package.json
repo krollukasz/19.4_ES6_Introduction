@@ -1,0 +1,29 @@
+{
+  "name": "19.4_es6_introduction",
+  "version": "1.0.0",
+  "description": "ES6 amd babel first run\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[3~n",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel script.js --watch --out-file script-compiled.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krollukasz/19.4_ES6_Introduction.git"
+  },
+  "keywords": [
+    "ES6",
+    "Babel",
+    "learning"
+  ],
+  "author": "Łukasz Król",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krollukasz/19.4_ES6_Introduction/issues"
+  },
+  "homepage": "https://github.com/krollukasz/19.4_ES6_Introduction#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
