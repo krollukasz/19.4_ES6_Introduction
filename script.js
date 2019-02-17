@@ -3,11 +3,11 @@ sayHello();
 
 // EXERCISE 1
 
-const hello = Hello;
-const world = World;
-const greeting = function hello() {
-  console.log(`${Hello} ${World}`);
-}
+const one = "Hello";
+const two = "World";
+
+const three = `${one} ${two}`;
+console.log(three);
 
 // EXERCISE 2
 
@@ -29,18 +29,18 @@ console.log(`Average is ${average(1,2,3,4,5,6)}`);
 
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
 
-const averageValue = (...grades) => {
+const average = (...rets) => {
   let sum = 0;
   grades.forEach(args => {
     sum += args;
   })
-  return sum / args.length;
+  return sum / grades.length;
 }
-console.log(`Average value is ${average[grades]}`);
+console.log(`Average value is ${average(grades)}`);
 
 // EXERCISE 5
 
 const array = [1, 4, 'Iwona', false, 'Nowak'];
-const [, , firstName, , lastName] = name
+const [, , firstName, , lastName] = array;
 
 console.log(`${firstName} ${lastName}`);
