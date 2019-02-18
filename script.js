@@ -29,14 +29,14 @@ console.log(`Average is ${average(1,2,3,4,5,6)}`);
 
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
 
-const average = (...rets) => {
+const functionAverage = (...rets) => {
   let sum = 0;
   grades.forEach(args => {
     sum += args;
   })
   return sum / grades.length;
 }
-console.log(`Average value is ${average(grades)}`);
+console.log(`Average value is ${functionAverage(grades)}`);
 
 // EXERCISE 5
 
